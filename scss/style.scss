@@ -1,31 +1,31 @@
 // Global CSS
 @font-face {
     font-family: 'Gotham-book';
-    src: url('/fonts/Gotham-Book.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/Gotham-Book.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/Gotham-Book.woff') format('woff'), /* Pretty Modern Browsers */
-         url('/fonts/Gotham-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('/fonts/Gotham-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('../fonts/Gotham-Book.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Gotham-Book.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gotham-Book.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Gotham-Book.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Gotham-Book.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Gotham-Book.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 
 @font-face {
     font-family: 'Gotham-medium';
-    src: url('/fonts/Gotham-Medium.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/Gotham-Medium.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/Gotham-Medium.woff') format('woff'), /* Pretty Modern Browsers */
-         url('/fonts/Gotham-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('/fonts/Gotham-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('../fonts/Gotham-Medium.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Gotham-Medium.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gotham-Medium.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Gotham-Medium.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Gotham-Medium.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Gotham-Medium.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 @font-face {
     font-family: 'Gotham-bold';
-    src: url('/fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
-    src: url('/fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
-         url('/fonts/Gotham-Bold.woff2') format('woff2'), /* Super Modern Browsers */
-         url('/fonts/Gotham-Bold.woff') format('woff'), /* Pretty Modern Browsers */
-         url('/fonts/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
-         url('/fonts/Gotham-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
+    src: url('../fonts/Gotham-Bold.eot'); /* IE9 Compat Modes */
+    src: url('../fonts/Gotham-Bold.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+         url('../fonts/Gotham-Bold.woff2') format('woff2'), /* Super Modern Browsers */
+         url('../fonts/Gotham-Bold.woff') format('woff'), /* Pretty Modern Browsers */
+         url('../fonts/Gotham-Bold.ttf')  format('truetype'), /* Safari, Android, iOS */
+         url('../fonts/Gotham-Bold.svg#svgFontName') format('svg'); /* Legacy iOS */
 }
 .f-normal{
     font-weight: 500;
@@ -78,7 +78,7 @@ li{
 .btn-default{
     text-decoration: underline;
 }
-// header CSS
+// header CSS 
 header{
     padding-bottom: 7px;
     .wrap{
@@ -183,7 +183,7 @@ header{
     }
 }
 .intro{
-    background: url(/imgs/background_intro.png);
+    background: url(../imgs/background_intro.png);
     // padding: 266px 0px;
     background-position: 50% 91%;
     padding-top: 87px;
@@ -249,7 +249,7 @@ header{
         justify-content: space-between;
         &:after{
             position: absolute;
-            content: url(/imgs/cathaft.png);
+            content: url(../imgs/cathaft.png);
             bottom: -6px;
             left: 41px;
 
@@ -436,13 +436,13 @@ header{
             
         }
         &--content:before{
-            content: url(/imgs/icon1.png);
+            content: url(../imgs/icon1.png);
             position: absolute;
             left: 6px;
             top: -25px;
         }
         &--content:after{
-            content: url(/imgs/icon2.png);
+            content: url(../imgs/icon2.png);
             position: absolute;
             right: 6px;
             bottom: -28px;
@@ -602,7 +602,7 @@ header{
         
     }
     &--child:after{
-        content: url(/imgs/long_arrow_down.png);
+        content: url(../imgs/long_arrow_down.png);
         position: absolute;
         left: 8px;
         bottom: -25px;

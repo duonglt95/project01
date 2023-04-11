@@ -1,20 +1,20 @@
 @font-face {
   font-family: 'Gotham-book';
-  src: url("/fonts/Gotham-Book.eot");
+  src: url("../fonts/Gotham-Book.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Book.woff2") format("woff2"), url("/fonts/Gotham-Book.woff") format("woff"), url("/fonts/Gotham-Book.ttf") format("truetype"), url("/fonts/Gotham-Book.svg#svgFontName") format("svg");
+  src: url("../fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Book.woff2") format("woff2"), url("../fonts/Gotham-Book.woff") format("woff"), url("../fonts/Gotham-Book.ttf") format("truetype"), url("../fonts/Gotham-Book.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Gotham-medium';
-  src: url("/fonts/Gotham-Medium.eot");
+  src: url("../fonts/Gotham-Medium.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Medium.woff2") format("woff2"), url("/fonts/Gotham-Medium.woff") format("woff"), url("/fonts/Gotham-Medium.ttf") format("truetype"), url("/fonts/Gotham-Medium.svg#svgFontName") format("svg");
+  src: url("../fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Medium.woff2") format("woff2"), url("../fonts/Gotham-Medium.woff") format("woff"), url("../fonts/Gotham-Medium.ttf") format("truetype"), url("../fonts/Gotham-Medium.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 @font-face {
   font-family: 'Gotham-bold';
-  src: url("/fonts/Gotham-Bold.eot");
+  src: url("../fonts/Gotham-Bold.eot");
   /* IE9 Compat Modes */
-  src: url("/fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Bold.woff2") format("woff2"), url("/fonts/Gotham-Bold.woff") format("woff"), url("/fonts/Gotham-Bold.ttf") format("truetype"), url("/fonts/Gotham-Bold.svg#svgFontName") format("svg");
+  src: url("../fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("../fonts/Gotham-Bold.woff2") format("woff2"), url("../fonts/Gotham-Bold.woff") format("woff"), url("../fonts/Gotham-Bold.ttf") format("truetype"), url("../fonts/Gotham-Bold.svg#svgFontName") format("svg");
   /* Legacy iOS */ }
 .f-normal {
   font-weight: 500; }
@@ -139,7 +139,7 @@ header {
       content: ''; }
 
 .intro {
-  background: url(/imgs/background_intro.png);
+  background: url(../imgs/background_intro.png);
   background-position: 50% 91%;
   padding-top: 87px;
   padding-bottom: 83px; }
@@ -191,7 +191,7 @@ header {
     justify-content: space-between; }
     .intro2 .container:after {
       position: absolute;
-      content: url(/imgs/cathaft.png);
+      content: url(../imgs/cathaft.png);
       bottom: -6px;
       left: 41px; }
   .intro2 .box-text2 {
@@ -339,12 +339,12 @@ header {
       .slider .slide-card--content p {
         font-size: 14px; }
     .slider .slide-card--content:before {
-      content: url(/imgs/icon1.png);
+      content: url(../imgs/icon1.png);
       position: absolute;
       left: 6px;
       top: -25px; }
     .slider .slide-card--content:after {
-      content: url(/imgs/icon2.png);
+      content: url(../imgs/icon2.png);
       position: absolute;
       right: 6px;
       bottom: -28px; }
@@ -456,7 +456,7 @@ header {
   .work-step--child:last-of-type:after {
     content: unset; }
   .work-step--child:after {
-    content: url(/imgs/long_arrow_down.png);
+    content: url(../imgs/long_arrow_down.png);
     position: absolute;
     left: 8px;
     bottom: -25px; }

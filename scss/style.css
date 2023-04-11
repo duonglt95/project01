@@ -1,0 +1,237 @@
+@font-face {
+  font-family: 'Gotham-book';
+  src: url("/fonts/Gotham-Book.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/Gotham-Book.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Book.woff2") format("woff2"), url("/fonts/Gotham-Book.woff") format("woff"), url("/fonts/Gotham-Book.ttf") format("truetype"), url("/fonts/Gotham-Book.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'Gotham-medium';
+  src: url("/fonts/Gotham-Medium.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/Gotham-Medium.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Medium.woff2") format("woff2"), url("/fonts/Gotham-Medium.woff") format("woff"), url("/fonts/Gotham-Medium.ttf") format("truetype"), url("/fonts/Gotham-Medium.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+@font-face {
+  font-family: 'Gotham-bold';
+  src: url("/fonts/Gotham-Bold.eot");
+  /* IE9 Compat Modes */
+  src: url("/fonts/Gotham-Bold.eot?#iefix") format("embedded-opentype"), url("/fonts/Gotham-Bold.woff2") format("woff2"), url("/fonts/Gotham-Bold.woff") format("woff"), url("/fonts/Gotham-Bold.ttf") format("truetype"), url("/fonts/Gotham-Bold.svg#svgFontName") format("svg");
+  /* Legacy iOS */ }
+.f-normal {
+  font-weight: 500; }
+
+.f-medium {
+  font-family: 'Gotham-Book', sans-serif;
+  font-weight: 600; }
+
+.f-bold {
+  font-family: 'Gotham-bold', sans-serif; }
+
+:root {
+  --greenbold: #008574;
+  --greenblur: #6ECEB2;
+  --orange: #F2982C;
+  --white: #FFFFFF;
+  --blueish: #2D92DD;
+  --littlewhite: #F5F5F5;
+  --black: #000000;
+  --grey: #ACABAB;
+  --yellow: #FEC559;
+  --bluebold: #0067C5;
+  --greybold: #606060; }
+
+* {
+  margin: 0px;
+  padding: 0px; }
+
+body {
+  font-family: 'Gotham-book', sans-serif; }
+
+a {
+  text-decoration: none;
+  letter-spacing: 1.5px;
+  color: var(--black); }
+
+.container {
+  width: 1155px;
+  margin: 0 auto; }
+
+li {
+  list-style-type: none; }
+
+.btn-primary {
+  border-radius: 15px; }
+
+.btn-default {
+  text-decoration: underline; }
+
+header {
+  padding-bottom: 7px; }
+  header .wrap {
+    display: flex;
+    align-items: center; }
+  header .top {
+    font-size: 13px;
+    background-color: var(--littlewhite); }
+    header .top .container {
+      justify-content: space-between;
+      padding-top: 10px;
+      padding-bottom: 10px; }
+    header .top svg {
+      margin-right: 8px;
+      height: 20px;
+      margin-bottom: 0px; }
+    header .top p, header .top li, header .top a {
+      color: var(--blueish); }
+    header .top p {
+      display: inline-block;
+      letter-spacing: .1px; }
+    header .top .contact {
+      padding-left: 8px;
+      margin-top: -3px; }
+      header .top .contact a {
+        display: flex;
+        align-items: center; }
+    header .top ul {
+      margin-top: -2px; }
+    header .top li {
+      padding: 0px 20px; }
+      header .top li a {
+        letter-spacing: 0px; }
+    header .top li:last-child {
+      padding-right: 5px; }
+  header ul {
+    display: flex; }
+  header .main {
+    font-size: 18px;
+    font-weight: 500;
+    padding: 15px 0px; }
+    header .main .wrap {
+      justify-content: space-between; }
+    header .main img {
+      width: 207.5px;
+      margin-left: 5px; }
+    header .main a {
+      font-weight: 500;
+      font-family: 'Gotham-Medium', sans-serif;
+      color: var(--greybold);
+      letter-spacing: .1px;
+      position: relative; }
+    header .main ul {
+      margin-top: 7px; }
+    header .main .btn-primary {
+      border: 1px solid var(--greybold);
+      padding: 11px 19px;
+      margin-right: 0px;
+      letter-spacing: .2px;
+      margin-top: 9px; }
+    header .main .btn-primary:hover {
+      background-color: var(--yellow);
+      border: unset;
+      color: var(--black);
+      padding: 12px 20px; }
+    header .main li {
+      padding: 0px 36px; }
+      header .main li a:after {
+        content: url("../imgs/arrow_down.png");
+        position: absolute;
+        right: -18px; }
+    header .main li:last-child a:after {
+      content: ''; }
+
+.intro {
+  background: url(/imgs/background_intro.png);
+  background-position: 50% 91%;
+  padding-top: 87px;
+  padding-bottom: 83px; }
+  .intro .box {
+    background-color: var(--white);
+    padding: 5px 42px;
+    display: flex;
+    justify-content: flex-start;
+    flex-flow: column;
+    width: 43%;
+    padding-right: 0px;
+    padding-bottom: 50px;
+    border-radius: 13px; }
+    .intro .box h1 {
+      color: var(--bluebold); }
+      .intro .box h1 p {
+        font-size: 65px;
+        margin-top: unset;
+        margin-bottom: -38px;
+        letter-spacing: .7px;
+        line-height: unset; }
+    .intro .box p {
+      margin-top: 29px;
+      font-size: 20px;
+      line-height: 22px; }
+    .intro .box--button {
+      margin-top: 37px; }
+  .intro .btn-primary {
+    padding: 20px 22px;
+    background-color: var(--yellow);
+    filter: drop-shadow(0px 3px 6px rgba(0, 0, 0, 0.16));
+    font-family: 'Gotham-Medium';
+    font-size: 20px;
+    letter-spacing: 0px; }
+  .intro .btn-primary:hover {
+    background-color: var(--greenblur); }
+  .intro .btn-default {
+    margin-left: 26px;
+    letter-spacing: 0px;
+    color: var(--bluebold); }
+
+.intro2 {
+  padding-top: 20px;
+  background-color: var(--bluebold); }
+  .intro2 .container {
+    padding-bottom: 30px;
+    display: flex;
+    position: relative;
+    justify-content: space-between; }
+    .intro2 .container:after {
+      position: absolute;
+      content: url(/imgs/cathaft.png);
+      bottom: -6px;
+      left: 41px; }
+  .intro2 .box-text2 {
+    flex: 0 0 44%; }
+    .intro2 .box-text2 p {
+      font-size: 38px;
+      font-weight: 100;
+      line-height: 43px; }
+    .intro2 .box-text2 strong {
+      letter-spacing: .9px; }
+  .intro2 .box-text3 {
+    flex: 0 0 50.2%;
+    padding-top: 10px; }
+    .intro2 .box-text3 img {
+      width: 27px;
+      height: auto;
+      vertical-align: bottom; }
+    .intro2 .box-text3 td {
+      font-size: 20px;
+      padding: 0; }
+    .intro2 .box-text3 tr {
+      margin-bottom: 5px; }
+      .intro2 .box-text3 tr td {
+        padding-right: 16px; }
+    .intro2 .box-text3 p {
+      padding: 6px 0px; }
+  .intro2 table {
+    border-collapse: collapse;
+    border-spacing: 0 1em; }
+  .intro2 p, .intro2 a, .intro2 td {
+    color: var(--white); }
+  .intro2 .btn-primary {
+    margin-top: 18px;
+    padding: 9px 15px;
+    border: 1px solid var(--white);
+    border-radius: 5px;
+    display: inline-block; }
+    .intro2 .btn-primary p {
+      padding: unset;
+      font-size: 18px;
+      letter-spacing: .1px; }
+
+/*# sourceMappingURL=style.css.map */
